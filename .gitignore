@@ -1,2 +1,15 @@
-/venv
-.env
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Environment variables
+*.env
+
+# IDE settings (optional, based on your setup)
+.idea/
+.vscode/
