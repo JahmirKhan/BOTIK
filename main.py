@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import sys
-from os import getenv
+import os
 
 from aiogram import Bot, Dispatcher, html, types, F
 from aiogram.client.default import DefaultBotProperties
@@ -26,7 +26,7 @@ class File(StatesGroup):
     file_id = State()
 
 # Bot token can be obtained via https://t.me/BotFather
-TOKEN = "7165039458:AAHGxwzN3uaCiDSTYKSC0xXTlzIWkhgLmZs"
+TOKEN = os.getenv("TOKEN")
 
 # All handlers should be attached to the Router (or Dispatcher)
 
