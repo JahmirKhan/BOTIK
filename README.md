@@ -30,17 +30,17 @@ python -m venv venv
 ### for WINDOWS
 
 #### In cmd.exe
-venv\Scripts\activate.bat
+`venv\Scripts\activate.bat`
 #### In PowerShell
-venv\Scripts\Activate.ps1
+`venv\Scripts\Activate.ps1`
 
 ### for LINUX
 
-source/venv/bin/activate
+`source/venv/bin/activate`
 
 ### Install req
 
-pip install requirements.txt
+`pip install requirements.txt`
 
 ### Run 
 
