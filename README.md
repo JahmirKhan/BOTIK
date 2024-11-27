@@ -21,3 +21,27 @@
 
 ## Инструкция по установке и запуску 
 
+### CREATE Virtual inv
+
+python -m venv venv
+
+### activate: 
+
+### for WINDOWS
+
+#### In cmd.exe
+venv\Scripts\activate.bat
+#### In PowerShell
+venv\Scripts\Activate.ps1
+
+### for LINUX
+
+source/venv/bin/activate
+
+### Install req
+
+pip install requirements.txt
+
+### Run 
+
+python main.py
